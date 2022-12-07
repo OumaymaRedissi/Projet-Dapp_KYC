@@ -1,8 +1,5 @@
-const KYC = artifacts.require("KYC");
-
+var Kyc = artifacts.require("./Kyc.sol");
 
 module.exports = function(deployer) {
-  
-  deployer.deploy(KYC);
-
+  deployer.deploy(Kyc);
 };
